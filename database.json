@@ -1,0 +1,80 @@
+{
+  "usuarios": [
+    {
+      "nombre": "Carlos Mesa",
+      "documento": "1012345678",
+      "correo": "carlos.mesa@example.com",
+      "contrasena": "claveSegura123",
+      "usuario": "cmesa",
+      "id": "a089"
+    },
+    {
+      "nombre": "Laura Rodríguez",
+      "documento": "1023456789",
+      "correo": "laura.rodriguez@example.com",
+      "contrasena": "laura1234",
+      "usuario": "lrodriguez",
+      "id": "63a7"
+    },
+    {
+      "nombre": "Diego Torres",
+      "documento": "1034567890",
+      "correo": "diego.torres@example.com",
+      "contrasena": "dtorres2025",
+      "usuario": "dtorres",
+      "id": "9fd7"
+    },
+    {
+      "id": "0gtwzc99mrg8",
+      "nombre": "janeth",
+      "documento": "43150",
+      "correo": "janeth@gmail.com",
+      "contrasena": "janeth",
+      "usuario": "janeth"
+    }
+  ],
+  "ventas": [
+    {
+      "id": "1",
+      "usuario": "cmesa",
+      "producto": "Cambio de cerradura",
+      "precio": 45000,
+      "fecha": "2025-05-01"
+    },
+    {
+      "id": "2",
+      "usuario": "cmesa",
+      "producto": "Duplicado de llave",
+      "precio": 15000,
+      "fecha": "2025-05-03"
+    },
+    {
+      "id": "3",
+      "usuario": "lrodriguez",
+      "producto": "Apertura de puerta",
+      "precio": 60000,
+      "fecha": "2025-05-02"
+    },
+    {
+      "id": "4",
+      "usuario": "lrodriguez",
+      "producto": "Reparación de cerradura",
+      "precio": 35000,
+      "fecha": "2025-05-06"
+    },
+    {
+      "id": "5",
+      "usuario": "dtorres",
+      "producto": "Instalación de cerrojo",
+      "precio": 50000,
+      "fecha": "2025-05-04"
+    },
+    {
+      "id": "6",
+      "usuario": "dtorres",
+      "producto": "Llave de carro",
+      "precio": 70000,
+      "fecha": "2025-05-07"
+    }
+  ]
+}

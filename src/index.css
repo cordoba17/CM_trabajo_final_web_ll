@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.Home{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-navegacion{
+    background-color: rgb(236, 80, 53);
+    width: 100%;
+    height: 10vh;
+    display:flex ;
+    justify-content: flex-end; /* <-- Esto alinea a la derecha */
+    align-items: center;       /* Centra verticalmente */
+    padding-right: 5%;         /* Espacio al borde derecho */
+
+
+    
+}
+
+.menu-navegacion a {
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;         /* Espacio entre enlaces */
+    text-decoration: none;
+    
+}
+.menu-navegacion img {
+    height: 50px;           /* Ajusta el tamaño del logo */
+    margin-right: auto;     /* Empuja el resto del contenido a la derecha */
+    display: block;         /* Elimina espacios inesperados */
+    object-fit: contain;    /* Asegura que no se deforme */
+  }
+  
+  
+
