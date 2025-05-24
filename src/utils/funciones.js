@@ -33,7 +33,30 @@ export function alertaError(titulo, mensaje, icono){
       });
 
 }
-export function alertaCorrecto(){
+export function alertaCorrecto(titulo, mensaje, icono, id){
+  let urlListadoVentas = "http://localhost:5173/home/ventas";
+  SwatchBook.fire({
+    title: titulo,
+    text: mensaje,
+    icon: icono,
+    showCancelButton: true,
+    confirmButtonColor: "#3085d6",
+    cancelButtonColor: "#d33",
+    confirmButtonText: "Si , eliminar",
+
+  }).then((result) =>{
+    if (result.isConfirmed){
+      fetch(urlListadoVentas + id, {
+        method: "DELETE",
+      });
+      Swal.fire({
+        title: "Eliminado",
+        text: "La venta fue eliminada correctamente",
+        icon: "success",
+      });
+    }
+
+  });
 
 }
 export function generarToken(){

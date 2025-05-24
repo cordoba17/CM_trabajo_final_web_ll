@@ -25,43 +25,23 @@
       "id": "9fd7"
     },
     {
-      "id": "0gtwzc99mrg8",
-      "nombre": "janeth",
-      "documento": "43150",
-      "correo": "janeth@gmail.com",
-      "contrasena": "janeth",
-      "usuario": "janeth"
+      "id": "m5hj825flc",
+      "nombre": "yeison",
+      "documento": "42589456",
+      "correo": "yeison@gmail.com",
+      "contrasena": "yei123",
+      "usuario": "yeisonB"
+    },
+    {
+      "id": "iv1pug6wcwl",
+      "nombre": "yaneth",
+      "documento": "15627453",
+      "correo": "yaneth@gmail.com",
+      "contrasena": "yan43",
+      "usuario": "yanethG"
     }
   ],
   "ventas": [
-    {
-      "id": "1",
-      "usuario": "cmesa",
-      "producto": "Cambio de cerradura",
-      "precio": 45000,
-      "fecha": "2025-05-01"
-    },
-    {
-      "id": "2",
-      "usuario": "cmesa",
-      "producto": "Duplicado de llave",
-      "precio": 15000,
-      "fecha": "2025-05-03"
-    },
-    {
-      "id": "3",
-      "usuario": "lrodriguez",
-      "producto": "Apertura de puerta",
-      "precio": 60000,
-      "fecha": "2025-05-02"
-    },
-    {
-      "id": "4",
-      "usuario": "lrodriguez",
-      "producto": "Reparación de cerradura",
-      "precio": 35000,
-      "fecha": "2025-05-06"
-    },
     {
       "id": "5",
       "usuario": "dtorres",
@@ -71,10 +51,131 @@
     },
     {
       "id": "6",
+      "usuario": "cmesa",
+      "producto": "Instalación de caja fuerte portátil",
+      "precio": 65000,
+      "fecha": "2025-05-06"
+    },
+    {
+      "id": "98be",
+      "usuario": "lrodriguez",
+      "nombreCliente": "Laura Rodríguez",
+      "producto": "Cerradura digital",
+      "precio": 120000,
+      "fecha": "2025-05-24"
+    },
+    {
+      "id": "4f41",
+      "usuario": "yeisonB",
+      "nombreCliente": "yeison",
+      "producto": "Puerta metálica reforzada",
+      "precio": 230000,
+      "fecha": "2025-05-24"
+    },
+    {
+      "id": "51dc",
+      "usuario": "lrodriguez",
+      "nombreCliente": "Laura Rodríguez",
+      "producto": "Cerradura digital",
+      "precio": 120000,
+      "fecha": "2025-05-24"
+    },
+    {
+      "id": "a31f",
+      "usuario": "yanethG",
+      "nombreCliente": "yaneth",
+      "producto": "Mirilla digital",
+      "precio": 95000,
+      "fecha": "2025-05-24"
+    },
+    {
+      "id": "c7d0",
       "usuario": "dtorres",
-      "producto": "Llave de carro",
-      "precio": 70000,
-      "fecha": "2025-05-07"
+      "nombreCliente": "Diego Torres",
+      "producto": "Puerta metálica reforzada",
+      "precio": 230000,
+      "fecha": "2025-05-24"
+    },
+    {
+      "id": "96a6",
+      "usuario": "yeisonB",
+      "nombreCliente": "yeison",
+      "producto": "Caja fuerte portátil",
+      "precio": 65000,
+      "fecha": "2025-05-24"
+    },
+    {
+      "id": "b8ce",
+      "usuario": "cmesa",
+      "nombreCliente": "Carlos Mesa",
+      "producto": "Escudo protector de cerradura",
+      "precio": 12000,
+      "fecha": "2025-05-24"
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Cerradura de seguridad",
+      "descripcion": "Ideal para puertas principales. Alta resistencia.",
+      "precio": "$45.00",
+      "imagen": "/public/cerradura.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Llave codificada",
+      "descripcion": "Llave duplicada con sistema antirrobo.",
+      "precio": "$8.00",
+      "imagen": "/public/llaves.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Puerta metálica reforzada",
+      "descripcion": "Diseño robusto para casas o negocios.",
+      "precio": "$230.00",
+      "imagen": "/public/puertametalica.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Caja fuerte portátil",
+      "descripcion": "Caja de seguridad pequeña ideal para viajes.",
+      "precio": "$65.00",
+      "imagen": "/public/cajafuerte.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Cerradura digital",
+      "descripcion": "Acceso mediante código o huella.",
+      "precio": "$120.00",
+      "imagen": "/public/cerraduradigital.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Cerrojo de sobreponer",
+      "descripcion": "Cerrojo clásico para puertas interiores.",
+      "precio": "$15.00",
+      "imagen": "/public/cerrojo.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Llave maestra",
+      "descripcion": "Compatible con múltiples cerraduras.",
+      "precio": "$18.00",
+      "imagen": "/public/llavemaestra.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Escudo protector de cerradura",
+      "descripcion": "Protección contra ganzúas y extracción.",
+      "precio": "$12.00",
+      "imagen": "/public/escudo.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Mirilla digital",
+      "descripcion": "Pantalla LCD para mayor visibilidad.",
+      "precio": "$95.00",
+      "imagen": "/public/mirilla.jpg"
     }
   ]
 }
